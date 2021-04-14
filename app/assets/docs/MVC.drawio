@@ -1,0 +1,62 @@
+<mxfile>
+    <diagram id="igxZhIq-c1c2RVcOC1Ik" name="Page-1">
+        <mxGraphModel dx="727" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="460" width="48" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Web Page" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=18;image=img/lib/azure2/general/Browser.svg;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;labelBackgroundColor=none;fontColor=#000066;labelBorderColor=none;spacingTop=-1;spacingLeft=2;spacingBottom=0;spacingRight=2;spacing=8;" parent="1" vertex="1">
+                    <mxGeometry x="28.6" y="20" width="225" height="180" as="geometry"/>
+                </mxCell>
+                <object label="http://request" httprequestlink="web page request" text="http//request" id="18">
+                    <mxCell style="endArrow=classic;html=1;fontSize=18;exitX=0.756;exitY=0.111;exitDx=0;exitDy=0;exitPerimeter=0;fontColor=#FFFFFF;labelBackgroundColor=#292929;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;spacingRight=36;spacingLeft=33;" parent="1" source="13" edge="1">
+                        <mxGeometry x="0.0004" relative="1" as="geometry">
+                            <mxPoint x="300" y="140" as="sourcePoint"/>
+                            <mxPoint x="414" y="109" as="targetPoint"/>
+                            <Array as="points">
+                                <mxPoint x="390" y="40"/>
+                                <mxPoint x="414" y="40"/>
+                            </Array>
+                            <mxPoint as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <mxCell id="43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.247;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#292929;fontSize=24;fontColor=#292929;" parent="1" source="40" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Config" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=24;image=img/lib/azure2/general/Folder_Blank.svg;shadow=1;labelBackgroundColor=none;sketch=0;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;fontColor=#292929;" parent="1" vertex="1">
+                    <mxGeometry x="352" y="110" width="123.21" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="360" y="256" width="212" height="212" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;p style=&quot;line-height: 0%&quot;&gt;Application Routes&lt;/p&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/TFS_VC_Repository.svg;shadow=1;labelBackgroundColor=none;sketch=0;" parent="44" vertex="1">
+                    <mxGeometry width="212" height="212" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="routes.rb" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#F8F9FA;strokeWidth=1;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;spacingLeft=0;fontStyle=0;fontSize=16;spacing=5;labelBackgroundColor=none;sketch=0;fontColor=#660066;" parent="44" vertex="1">
+                    <mxGeometry x="22.399999999999977" y="34" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="group" parent="44" vertex="1" connectable="0">
+                    <mxGeometry x="39" y="74" width="167" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="home" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;sketch=0;fontSize=11;fontColor=#FFFFFF;" parent="41" vertex="1">
+                    <mxGeometry x="127" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="about" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;sketch=0;fontSize=11;fontColor=#FFFFFF;" parent="41" vertex="1">
+                    <mxGeometry x="87" y="80" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="article" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;labelBackgroundColor=none;sketch=0;fontSize=11;fontColor=#FFFFFF;" parent="41" vertex="1">
+                    <mxGeometry y="104" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Task:&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#FFFF33;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="-0.4000000000000057" y="230" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="We have a database which contains a&lt;br&gt;table of articles.&lt;br&gt;Modify the rails application to show a &lt;br&gt;user selected article.&lt;br&gt;Hint: Select by id." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#99FF33;" vertex="1" parent="1">
+                    <mxGeometry x="-0.4000000000000057" y="250" width="280" height="100" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

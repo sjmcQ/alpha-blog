@@ -19,4 +19,13 @@ ActiveRecord::Schema.define(version: 2021_04_06_093655) do
     t.text "description"
   end
 
+  create_table :users do |t|
+    t.string  :user_name
+    t.varchar :job_description, length: 300, :null false
+        
+    t.timestamps
+  end 
+    
+end
+
 end
