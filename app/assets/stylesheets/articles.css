@@ -1,0 +1,9 @@
+textarea,
+input[type=text_area] {
+    font-family: Arial;
+}
+
+textfield,
+input[type=text_field] {
+    font-family: Arial;
+}
