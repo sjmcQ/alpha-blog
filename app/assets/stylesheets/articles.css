@@ -1,9 +1,23 @@
-textarea,
-input[type=text_area] {
-    font-family: Arial;
+#para1 {
+    color: rebeccapurple;
+    font-family: inherit;
+    /*font-size-adjust: inherit;*/
 }
 
-textfield,
-input[type=text_field] {
-    font-family: Arial;
+#para2 {
+    color: rebeccapurple;
+    font-family: inherit;
+    /*font-size-adjust: inherit;*/
+}
+
+text_field {
+    background: powderblue;
+}
+
+#h1 {
+    color: rebeccapurple
+}
+
+.underline {
+    text-decoration: underline;
 }

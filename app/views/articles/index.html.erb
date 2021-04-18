@@ -1,27 +1,33 @@
 <h1>Articles Listing Page</h1>
-
+<hr  style="height:5px; background-color: blue; width:100%;" class="line1">
 <table>
   <thead>
     <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Actions</th>
+      <td>&nbsp&nbsp&nbsp</td>
+      <th class="underline">Title</th>
+      <td>&nbsp</td>
+      <th class="underline">Description</th>
+      <td>&nbsp</td>
+      <th class="underline", colspan="3">Actions</th>
     </tr>
   </thead>
+  <tbody>  
+    <% @articles.each do |article| %>
+      <tr>
+        <td>&nbsp&nbsp&nbsp</td>
+        <td><%= article.title %></td>
+        <td>&nbsp</td>
+        <td><%= article.description %></td>
+        <td>&nbsp</td>
+        <td class="underline"><%= link_to 'show', article_path(article) %></td>
+        <td>&nbsp</td>
+        <td class="underline"><%= link_to 'edit', edit_article_path(article) %></td>
+        <td>&nbsp</td>
+        <td class="underline"><%= link_to 'delete', article_path(article), method: :delete %> </td>
+      </tr>
+    <% end %>
+  </tbody>  
 
-  <tbody>
-  
-  <% @articles.each do |article| %>
-    
-    <tr>
-      <td><%= article.title %></td>
-      <td><%= article.description %></td>
-      <td>Placeholder</td>
-    </tr>
-
-  <% end %>
-
-  </tbody> 
 </table>
 
 <br><br><br><br>

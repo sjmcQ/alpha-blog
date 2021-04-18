@@ -12,10 +12,15 @@
 
   <body>
 
-    <%= image_tag("CycologyLogoRevised.png", width: '25%') %>
-    <br>
-    <%= image_tag("disc brake.jpg", width: '150px', :style => "border: 1px solid red") %>
-    <br>
+    <%= image_tag("rails_udemy_logograd.png", width: '100%') %>
+    <!--br></br -->
+    <%#= image_tag("disc brake.jpg", width: '150px', :style => "border: 1px solid red") %>
+    <!--br></br -->
+    <div style="color: green; font-weight: bold">
+      <% flash.each do |name, msg|%>
+        <%= msg %>
+      <% end %>
+    </div>  
     <%= yield %>
 
   </body>

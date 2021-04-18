@@ -1,6 +1,6 @@
 
 
-<h1 id="h1">Create a new article</h1>
+<h1 id="h1">Edit article</h1>
 <hr  style="height:5px; background-color: blue; width:100%;" class="line1">
 
 <% if @article.errors.any? %>
@@ -13,7 +13,7 @@
 <% end %>
 
 <div style = "margin:30px;padding:0">
-  <%= form_with scope: :article, url: articles_path, local: true do |f| %>
+  <%= form_with(model: @article, local: true)  do |f| %>
     
     <p>
       <strong> 
@@ -40,4 +40,3 @@
 
   <% end %>
 </div>
-

@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+#para1 {
+    color: rebeccapurple;
+    font-family: inherit;
+    /*font-size-adjust: inherit;*/
+    font-size: 150%;
+}
+
+#para2 {
+    color: rebeccapurple;
+    font-family: inherit;
+    text-align: left;
+    /*font-size-adjust: inherit;*/
+    font-size: 150%;
+}
+
+#h1 {
+    color: rebeccapurple
+}
